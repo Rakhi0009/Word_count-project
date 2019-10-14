@@ -1,0 +1,15 @@
+<h1>Welcome to my website people!</h1>
+
+
+<form action = "{% url 'count' %}">
+    <textarea cols = 40 , rows = 2 name = "fulltext"></textarea>
+    <input type = 'submit' , value = 'Hit enter'></input>
+</form>
+
+
+<br />
+
+<form action = "{% url 'link' %}">
+    <textarea cols = 10 , rows = 1 , name = 'link'></textarea>
+    <input type = 'submit' , value = 'search' />
+</form>
